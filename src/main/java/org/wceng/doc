@@ -1,0 +1,30 @@
+finish_reason的可能值为:
+stop: API返回完整的模型输出。
+length: 由于max_tokens参数(opens in a new tab)或标记限制而导致的不完整模型输出
+content_filter: 由于我们的内容过滤器中的标志而省略的内容
+null: API响应仍在进行中或不完整
+
+模型兼容性:
+/v1/chat/completions	gpt-4, gpt-4-0314, gpt-4-32k, gpt-4-32k-0314, gpt-3.5-turbo, gpt-3.5-turbo-0301
+/v1/completions	text-davinci-003, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001
+/v1/edits	text-davinci-edit-001, code-davinci-edit-001
+/v1/audio/transcriptions	whisper-1
+/v1/audio/translations	whisper-1
+/v1/fine-tunes	davinci, curie, babbage, ada
+/v1/embeddings	text-embedding-ada-002, text-search-ada-doc-001
+/v1/moderations	text-moderation-stable, text-moderation-latest
+
+System:
+You are a helpful assistant.
+
+Image:
+可以使用 response_format 参数将每个图像作为 URL 或 Base64 数据返回。URL 将在一小时后过期。
+
+AUdio：
+支持的输出格式
+默认响应格式为“mp3”，但也可以使用其他格式，如“opus”、“aac”、“flac”和“pcm”。
+Opus：用于互联网流媒体和通信，低延迟。
+AAC：用于数字音频压缩，YouTube、Android、iOS 首选。
+FLAC：用于无损音频压缩，深受音频爱好者的青睐，用于存档。
+WAV：未压缩的WAV音频，适用于低延迟应用，以避免解码开销。
+PCM：类似于 WAV，但包含 24kHz（16 位有符号，低端）的原始样本，不带标头。

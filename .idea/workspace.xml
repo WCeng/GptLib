@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48aa0e46-ba5b-4b49-b186-2192f3d52413" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/Mind.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/component/GptLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/model/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/GptAudioSpeechRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/GptAudioTranscriptionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/GptAudioTranslationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/GptChatCompleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/GptEmbeddingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/GptImageGenerationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/GptRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/body/GptAudioSpeechRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/body/GptChatCompleteRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/body/GptEmbeddingRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/request/body/GptImageGenerationRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/AudioSpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/AudioTranscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/AudioTranslation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/ChatCompletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/Embedding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/GptResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/ImageGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/converter/GptResponseConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/response/converter/GptResponseConverterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/util/GsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GptLib/src/main/java/org/wceng/util/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/ChatgptMap.mmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/Client/ChatgptClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/Client/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/GptClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/component/GptChatStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/component/GptModelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/component/GptSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/launcher/GptChatLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/launcher/GptImageLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/launcher/GptLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/launcher/GptLauncherBuilderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/launcher/GptResponseCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/model/GptAudio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/model/GptImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/model/GptMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/model/GptModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/model/GptModelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/model/GptSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/request/GptChatRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/request/GptImageRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/request/GptRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/response/GptChatResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/response/GptChoices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/response/GptResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/response/StreamHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/response/StreamListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/response/TokenUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/util/IOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/util/ImageToBase64Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wceng/util/TextUtil.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Empty Mind Map" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ionM0026x8PWyrV7lhoy3yaw4J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ChatgptClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestClient (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TokenCountExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/ideaCode/ChatgptLib/GptLib/src/main/java/org/wceng/request&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\ideaCode\ChatgptLib\GptLib\src\main\java\org\wceng\request" />
+      <recent name="D:\code\ideaCode\ChatgptLib\GptLib\src\main\java\org\wceng\response" />
+      <recent name="D:\code\ideaCode\ChatgptLib\GptLib\src\main\java\org\wceng\component" />
+      <recent name="D:\code\ideaCode\ChatgptLib\src\main\java\org\wceng" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\ideaCode\ChatgptLib\GptLib\src\main\java\org\wceng\util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.wceng.response" />
+      <recent name="org.wceng.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="ChatgptClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wceng.Client.ChatgptClient" />
+      <module name="ChatgptLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wceng.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wceng.Main" />
+      <module name="GptLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wceng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wceng.Client.TestClient" />
+      <module name="ChatgptLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wceng.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wceng.Client.TestClient" />
+      <module name="ChatgptLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wceng.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenCountExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wceng.Client.TokenCountExample" />
+      <module name="ChatgptLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wceng.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.TokenCountExample" />
+        <item itemvalue="Application.TestClient (1)" />
+        <item itemvalue="Application.ChatgptClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48aa0e46-ba5b-4b49-b186-2192f3d52413" name="Changes" comment="" />
+      <created>1720165745882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720165745882</updated>
+      <workItem from="1720165746931" duration="16461000" />
+      <workItem from="1720223835445" duration="41355000" />
+      <workItem from="1720304140715" duration="34304000" />
+      <workItem from="1720395154136" duration="30952000" />
+      <workItem from="1720440454618" duration="8511000" />
+      <workItem from="1720485156323" duration="37897000" />
+      <workItem from="1720571414787" duration="26130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wceng/launcher/GptChatLauncher.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wceng/launcher/GptChatLauncher.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
